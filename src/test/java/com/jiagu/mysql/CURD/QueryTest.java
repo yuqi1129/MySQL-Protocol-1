@@ -7,7 +7,7 @@ public class QueryTest {
 
     public static void main(String args[]) throws Exception{
         Query query = new Query();
-        String host = "192.168.43.97";
+        String host = "127.0.0.1";
         int port = 3306;
         String user = "root";
         String password = "tdlab401";
