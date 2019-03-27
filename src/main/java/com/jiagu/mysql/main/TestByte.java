@@ -37,6 +37,15 @@ public class TestByte {
 			System.out.println(byteBuffer.get());
 		}
 
+		//java 是大端
 		//这个应该差不多的
+
+		char c = '中';
+
+		byte[] bytes = "aa中国".getBytes();
+		for (int i = 0; i < bytes.length; i++) {
+			System.out.print(bytes[i] + " ");
+		}
+		//https://www.ibm.com/developerworks/cn/java/j-lo-chinesecoding/index.html
 	}
 }
